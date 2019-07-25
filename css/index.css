@@ -332,6 +332,7 @@ header nav a{
   margin-top:10px;
   margin-bottom:10px;
   border-bottom: 1px solid black;
+  padding-bottom: 18px;
 }
 .cta{
   margin-top: 10px;
@@ -396,8 +397,8 @@ header nav a{
 .contact {
   margin-top: 57px;
   border-top: 1px solid black;
-  padding: 39px 10px 0;
-  margin-left: 43px;
+  padding-left: 0px;
+  margin-left: 50px;
   margin-right: 30px;
 }
 }
