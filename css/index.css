@@ -105,6 +105,7 @@ header .logo {
 /* cta */
 
 .cta .cta-text {
+  
   display: inline-block;
   vertical-align: top;
   font-size: 77px;
@@ -155,6 +156,7 @@ header .logo {
 
 .main-content .middle-img {
   margin-top: 45px;
+  margin-bottom:45px; 
 }
 
 .main-content .bottom-content {
@@ -187,5 +189,101 @@ footer {
   text-align: center;
   font-size: 14px;
 }
+
+/* Tablet view  */ 
+
+@media (max-width: 800px) {
+  .container{
+    width: 750px;
+  /* TB LR */
+  margin: 0 auto;
+    border: solid;
+  }
+  
+  header{
+   
+    display:flex;
+    flex-direction: column-reverse;
+    align-content: center;
+  }
+  .logo{
+    margin-left: 320px;
+    margin-bottom: 25px;
+    height: auto;
+    max-width: 100%;
+    
+  }
+  header nav{
+    margin-left: 85px;
+  }
+  .cta{
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+  }
+  .cta img{
+    display:none;
+    align-items: center;
+  }
+  .cta .cta-text{
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    
+  }
+
+  .main-content{
+   padding:1%;  
+   width:95%; 
+   border:1%; 
+  }
+
+  .main-content .top-content{
+   display: flex;
+   margin-left: 68px;
+   margin-right: 50px;
+   padding-left: 15px;
+   padding-right:15px; 
+   width:89%; 
+  }
+  .middle-img{
+    margin-left: 74px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width: 88%;
+    
+  }
+  .bottom-content{
+    display:flex; 
+    margin-left: 75px;
+   
+  }
+  .bottom-content .text-content{
+    display: flex;
+    width: 95%;
+
+    
+    
+
+  }
+  .contact {
+    margin-top: 57px;
+    border-top: 1px solid black;
+    padding: 39px 10px 0;
+  }
+  footer{
+    margin: 32px 0;
+    text-align: center;
+    font-size: 14px;
+  }
+} 
+
 
 
